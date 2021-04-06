@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-spring"
+  description: "Test springboot Service"
+  annotations:
+    github.com/project-slug: mungmoong3/test-spring
+    backstage.io/techdocs-ref: url:https://github.com/mungmoong3/test-spring
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "jeroh"
